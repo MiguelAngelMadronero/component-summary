@@ -114,7 +114,7 @@ body{
     border-radius: 10px;
 }
 .card__link:hover{
-    background-color: var(--Desaturated-blue);
+    background-color:hsl(245, 75%, 52%, 0.7); ;
 }
 
 .card__cancel{
