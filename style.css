@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+
+    --font-red-hat:"Red Hat Display", sans-serif;
+}
+
+body{
+    font-family: var(--font-red-hat);
+    background-color: var(--Pale-blue);
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: var(--Very-pale-blue);
+    width: 330px;
+    max-width: 90%;
+    min-height: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    padding: .1px;
+}
+
+.card__container{
+    width: 80%;
+}
+
+.card__ilustration{
+    width: 100%;
+}
+
+.card__img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.card__content{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.card__title{
+    color: var(--Dark-blue);
+    font-weight: 900;
+    margin-bottom: 5%;
+}
+
+.card__paragraph{
+    color: var(--Desaturated-blue);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10%;
+}
+
+.card__plan{
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--Pale-blue);
+    border-radius: 5px;
+}
+
+.card__plan{
+    padding: 10px 0px;
+
+}
+
+.card__details{
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.card__change{
+    margin-right: 5px;
+    color: var(--Bright-blue);
+}
+
+.card__link{
+    background-color: var(--Bright-blue);
+    text-decoration: none;
+    color: var(--Very-pale-blue);
+    font-weight: 900;
+    padding: 13px ;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 6%;
+    border-radius: 10px;
+}
+.card__link:hover{
+    background-color: var(--Desaturated-blue);
+}
+
+.card__cancel{
+    /* margin-top: 10%; */
+    margin-bottom: 10%;
+    color: var(--Desaturated-blue);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.card__cancel:hover{
+    color: var(--Dark-blue);
+    
+}
