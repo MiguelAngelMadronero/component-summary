@@ -79,9 +79,9 @@ body{
     /* gap: 20px; */
     justify-content: space-between;
     align-items: center;
-    background-color: var(--Pale-blue);
+    background-color: rgb(224, 232, 255, 0.4);
     border-radius: 5px;
-    padding: 10px 0px;
+    padding: 10px 5px;
 
 }
 
@@ -90,6 +90,11 @@ body{
 .card__details{
     margin-left: 5px;
     margin-right: 20px;
+}
+
+.card__annualPlan{
+    color: var(--Dark-blue);
+    font-weight: 900;
 }
 
 .card__change{
