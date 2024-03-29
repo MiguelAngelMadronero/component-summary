@@ -14,8 +14,12 @@
 }
 
 body{
+    background-image: url('./images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
     font-family: var(--font-red-hat);
     background-color: var(--Pale-blue);
+    background-size: contain;
+    /* background-color: black; */
 }
 
 .container{
@@ -77,12 +81,11 @@ body{
     align-items: center;
     background-color: var(--Pale-blue);
     border-radius: 5px;
-}
-
-.card__plan{
     padding: 10px 0px;
 
 }
+
+
 
 .card__details{
     margin-left: 5px;
@@ -120,4 +123,12 @@ body{
 .card__cancel:hover{
     color: var(--Dark-blue);
     
+}
+
+@media(min-width:768px){
+    body{
+        background-image: url('./images/pattern-background-desktop.svg');
+        background-size: 100% 50%;
+    }
+
 }
